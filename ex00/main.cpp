@@ -21,7 +21,7 @@ int main() {
 			}
 		}
 
-		test.pop_back();
+		test.pop_back(); // erase 99
 
 		{
 			std::vector<int>::iterator it = ::easyfind(test, 99);
